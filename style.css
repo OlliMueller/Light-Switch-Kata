@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 3rem;
+  font-family: monospace;
+  padding: 1rem;
+  border: 0.33rem solid black;
+  border-radius: 0.2rem;
+  background-color: white;
+  cursor: pointer;
+}
